@@ -45,7 +45,21 @@ CREATE TABLE messages (
     timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
-Here is a preview of the finished application:
-<img width="1909" height="931" alt="Screenshot 2025-09-26 022120" src="https://github.com/user-attachments/assets/16aeacf9-187a-41de-a7d9-de07bd26e668" />
+4. Configuration
+Open the server.js file and update the MySQL connection details with your local credentials.
 
-<img width="1788" height="961" alt="Screenshot 2025-09-26 022132" src="https://github.com/user-attachments/assets/b55440ee-d063-48de-bd1c-18238423ac33" />
+const pool = mysql.createPool({
+    host: 'localhost',
+    user: 'your_mysql_username', // Replace with your username
+    password: 'your_mysql_password', // Replace with your password
+    database: 'chat_db'
+});
+
+
+5. Run the Application
+Start the server using nodemon:
+
+npx nodemon server.js
+
+
+Now, open your web browser and navigate to http://localhost:3000 to view the application.
