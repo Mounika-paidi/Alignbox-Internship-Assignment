@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignbox Chat UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <i class="fas fa-arrow-left"></i>
+            <div class="group-info">
+                <img src="group-profile.jpg" alt="Group Icon" class="group-icon">
+                <span>Fun Friday Group</span>
+            </div>
+            <div class="header-actions">
+                <div id="incognito-icon" class="incognito-icon-container">
+                    <i class="fas fa-user-secret"></i>
+                </div>
+            </div>
+        </header>
+
+        <main class="chat-messages" id="chat-messages">
+            </main>
+<footer class="chat-input-area">
+    <i class="fas fa-camera"></i> <input type="text" id="message-input" placeholder="Type a message ...">
+    <i class="fas fa-paperclip"></i> <button id="send-button" class="send-button">
+        <i class="fas fa-paper-plane"></i>
+    </button>
+</footer>
+
+
+       
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
