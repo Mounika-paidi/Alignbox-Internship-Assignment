@@ -45,9 +45,7 @@ CREATE TABLE messages (
     timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
-
-
-
 Here is a preview of the finished application:
-<img width="1788" height="961" alt="image" src="https://github.com/user-attachments/assets/4e48eade-0462-45e1-ba88-31f2c8846aa1" />
-<img width="1909" height="931" alt="image" src="https://github.com/user-attachments/assets/f197f4b6-7b20-4dca-a446-270808c7e068" />
+<img width="1909" height="931" alt="Screenshot 2025-09-26 022120" src="https://github.com/user-attachments/assets/16aeacf9-187a-41de-a7d9-de07bd26e668" />
+
+<img width="1788" height="961" alt="Screenshot 2025-09-26 022132" src="https://github.com/user-attachments/assets/b55440ee-d063-48de-bd1c-18238423ac33" />
