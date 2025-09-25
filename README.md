@@ -45,8 +45,8 @@ CREATE TABLE messages (
     timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
-4. Configuration
-Open the server.js file and update the MySQL connection details with your local credentials.
+#### 4. Configuration
+```Open the server.js file and update the MySQL connection details with your local credentials.
 
 const pool = mysql.createPool({
     host: 'localhost',
@@ -56,8 +56,8 @@ const pool = mysql.createPool({
 });
 
 
-5. Run the Application
-Start the server using nodemon:
+#### 5. Run the Application
+```Start the server using nodemon:
 
 npx nodemon server.js
 
